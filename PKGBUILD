@@ -15,7 +15,7 @@ conflicts=('arm-linux-gnueabihf-binutils')
 
 _tarball="arm-gnu-toolchain-${_toolchain_ver}-x86_64-arm-none-linux-gnueabihf"
 source=("https://developer.arm.com/-/media/Files/downloads/gnu/${_toolchain_ver}/binrel/${_tarball}.tar.xz")
-sha256sums=('SKIP')
+sha256sums=('bd9cbce4e245d4e7ca39fda88fed8641316934c2ebda8bcd5022ce905d149926')
 
 package() {
     cd "${srcdir}/${_tarball}"
