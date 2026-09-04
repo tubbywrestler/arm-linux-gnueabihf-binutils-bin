@@ -12,6 +12,6 @@ pkgbase = arm-linux-gnueabihf-binutils-bin
 	options = !debug
 	options = !strip
 	source = https://developer.arm.com/-/media/Files/downloads/gnu/15.2.rel1/binrel/arm-gnu-toolchain-15.2.rel1-x86_64-arm-none-linux-gnueabihf.tar.xz
-	sha256sums = bd9cbce4e245d4e7ca39fda88fed8641316934c2ebda8bcd5022ce905d149926
+	sha256sums = 6ae7c78dd46765d27f7074961866ce22522966a04b887357a7e483fc384deaea
 
 pkgname = arm-linux-gnueabihf-binutils-bin
